@@ -121,8 +121,7 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid rgba(43, 38, 32, 0.08);
 }
 
-/* Darken the white wordmark so it reads on the light glass header */
-.site-header .logo-img { filter: brightness(0) saturate(100%); opacity: 0.88; }
+.site-header .logo-img { opacity: 1; }
 
 .header-inner {
   display: grid;
